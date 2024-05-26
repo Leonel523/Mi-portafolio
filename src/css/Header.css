@@ -1,0 +1,96 @@
+
+@keyframes titulo {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+h1 {
+  animation: titulo 0.7s ease forwards; 
+}
+
+body{
+  background-color: #230953;
+}
+.navbar {
+  background-color: transparent; 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.navbar ul li {
+  margin-right: 20px; 
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .iconos {
+  margin-left: auto; 
+  display: flex; 
+  align-items: center; 
+  font-size: 30px;
+  position: static;
+}
+
+.navbar .iconos ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .iconos ul li {
+  margin-left: 20px; 
+}
+
+.navbar a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  text-decoration: underline; 
+}
+
+
+
+.Titulo {
+  
+  padding: 80px;
+  text-align: center;
+}
+
+
+h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.foto-img {
+  width: 310px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  margin-top: 10px;
+  color: #fff;
+}

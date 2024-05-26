@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+html body{
+    transition: scroll-behavior 0.5s ease-in-out;
+}
+.sobre-mi {
+    background-color: transparent;
+  }
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    align-items: center;
+}
+
+.texto {
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px); 
+  }
+  
+  
+  .skill-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  

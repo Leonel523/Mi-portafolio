@@ -1,0 +1,22 @@
+.footer {
+  background-color: transparent; 
+  padding: 90px; 
+  display: flex; 
+justify-content: center;
+  font-size: 25px;
+}
+
+.left-column, .right-column {
+  width: 100%; 
+}
+
+
+.left-column p {
+  margin: 40; 
+  width: 100%;
+}
+
+
+.right-column p {
+  margin: 40; 
+}
